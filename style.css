@@ -51,3 +51,50 @@ nav{
   cursor: pointer;
 }
 
+/* Search and filter section */
+.search-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+/* Search input box */
+.search-box{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  width: 350px;
+  padding: 12px 18px;
+
+  background: white;
+  border-radius: 30px;
+}
+
+/* Search input */
+.search-box input{
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* Search icon */
+.search-box i{
+  color: gray;
+}
+
+/* Filter button */
+.filter-btn{
+  width: 250px;
+  padding: 12px 18px;
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+  border-radius: 30px;
+  background: white;
+  cursor: pointer;
+}
+
