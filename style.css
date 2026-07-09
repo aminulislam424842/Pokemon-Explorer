@@ -19,3 +19,35 @@ body{
   width: 90%;
 }
 
+/* Navigation Bar */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Menu button */
+.menu-btn{
+  background-color: rgb(231, 231, 231);
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  border-radius: 30%;
+  border: none;
+  cursor: pointer;
+}
+
+/* Pokemon logo */
+.logo{
+  width: 150px;
+}
+
+/* Theme button */
+.theme-btn{
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  border: none;
+  cursor: pointer;
+}
+
