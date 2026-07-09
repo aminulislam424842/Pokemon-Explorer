@@ -10,3 +10,12 @@ body{
   background-color: rgb(238, 230, 221);
 }
 
+/* Main container */
+.container{
+  background-color: rgb(194, 188, 188);
+  padding: 30px 8%;
+  border-radius: 30px;
+  margin: 30px auto;
+  width: 90%;
+}
+
