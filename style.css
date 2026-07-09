@@ -154,3 +154,62 @@ nav{
   align-items: center;
 }
 
+/* Card text content */
+.card-content{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Pokemon name */
+.card-content h2{
+  margin-bottom: 15px;
+}
+
+/* Card footer */
+.card-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Grass type badge */
+.Grass{
+  background-color: rgb(176, 247, 176);
+  color: rgb(68, 206, 5);
+  padding: 8px 14px;
+  border-radius: 15px;
+}
+
+/* Steel type badge */
+.steel{
+  background-color: rgb(158, 167, 167);
+  color: rgb(67, 73, 78);
+  padding: 8px 14px;
+  border-radius: 15px;
+}
+
+/* Psychic type badge */
+.psychic{
+  background-color: rgb(150, 202, 226);
+  color: rgb(6, 93, 173);
+  padding: 8px 14px;
+  border-radius: 15px;
+}
+
+/* Fire type badge */
+.fire{
+  background-color: rgb(248, 165, 132);
+  color: rgb(221, 70, 0);
+  padding: 8px 14px;
+  border-radius: 15px;
+}
+
+/* Arrow button */
+.arrow-btn{
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: none;
+  background-color: aliceblue;
+}
+
