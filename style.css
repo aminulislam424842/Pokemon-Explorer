@@ -235,3 +235,23 @@ nav{
   width: 300px;
 }
 
+/* Footer */
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer watermark */
+.watermark{
+  width: 44px;
+  height: 44px;
+  opacity: .15;
+}
+
+/* Footer text */
+footer p{
+  color: rgb(99, 98, 96);
+  margin-top: 10px;
+}
